@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Dnad.Architects.Application.Ports</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Acl\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Acl\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Acl\**" />
+  </ItemGroup>
+
+</Project>

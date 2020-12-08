@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Dnad.Architects.MeetingManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Application" />
+    <Folder Include="Domain" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Coders.Architects.Adapters.SqlServer\Coders.Architects.Adapters.SqlServer.csproj" />
+    <ProjectReference Include="..\Coders.Architects.Application.Ports\Coders.Architects.Application.Ports.csproj" />
+    <ProjectReference Include="..\Coders.Architects.CertificateManagement\Coders.Architects.CertificateManagement.csproj" />
+  </ItemGroup>
+
+</Project>
